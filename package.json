@@ -1,0 +1,29 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "create excel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvGeniyStadnik/excel.git"
+  },
+  "keywords": [
+    "js",
+    "excel"
+  ],
+  "author": "EvGeniy Stadnik <evgeniy.stadnik@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvGeniyStadnik/excel/issues"
+  },
+  "homepage": "https://github.com/EvGeniyStadnik/excel#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
